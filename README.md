@@ -1,4 +1,4 @@
-# test_one
+# trust_wallet_core_flutter_example
 
 A new Flutter project.
 
