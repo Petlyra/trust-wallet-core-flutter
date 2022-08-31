@@ -26,7 +26,6 @@ class _EthereumExampleState extends BaseExampleState<EthereumExample> {
     AnyAddress anyAddress = AnyAddress.createWithPublicKey(
         publicKey, TWCoinType.TWCoinTypeEthereum);
     logger.d("address from any address: ${anyAddress.description()}");
-    print(widget.wallet.mnemonic());
     String privateKeyhex = HEX.encode(
         widget.wallet.getKeyForCoin(TWCoinType.TWCoinTypeEthereum).data());
     logger.d("privateKeyhex: $privateKeyhex");
